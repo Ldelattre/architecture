@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPS*/
+body {
+    background-color: var(--bleu);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text1);
+}
+
+a:hover {
+    color: var(--jaune);
+}
+
+.img-fond {
+    width: 100%;
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text1);
+    padding: 15px 30px;
+
+}
+
+
+/* Menu header */
+
+header {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text1);
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+#logo {
+    height: 60px;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header li {
+    margin: 0 10px;
+}
+
+
+
+
+/* section 1 **********************************************************************/
+
+#image {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+#chaumont {
+    width: 100%;
+    position: relative;
+}
+
+#image h1 {
+    position: absolute;
+    margin: 0 10% 70px 0;
+    font-size: 3rem;
+    color: var(--jaune);
+
+}
+
+/* bandeau ************************************************************ */
+
+.bandeau {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bandeau h1 {
+    color: var(--jaune);
+    text-align: center;
+}
+
+/* paragrpahe ************************************ */
+
+.presentation {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.presentation img {
+    height: 100vh;
+
+}
+
+.presentation article {
+    position: absolute;
+    top: 50vh;
+    left: 8%;
+    transform: translate(0, -50%);
+    width: 40%;
+}
+
+.presentation p {
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+/* slider avec galeies des chateaux  ********************************************/
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.card {
+    width: 100%;
+}
+
+/* FOOTER************************************************************** */
+
+footer {
+    background-color: var(--vert3);
+}
+
+footer {
+    background-color: #292a2a;
+    padding: 40px 10%;
+    color: #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.w25 {
+    width: 13%;
+}
+
+.w25 h2 {
+    font-size: 1.1rem;
+    font-family: 'ubuntu condensed', sans-serif;
+    color: #fff;
+    padding-top: 0;
+}
+
+.w25 ul {
+    list-style-type: none;
+}
+
+.w25 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#copyright {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0 20px;
+    font-size: 0.8rem;
+}
+
+#news {
+    width: 30%;
+}
+
+#news form {
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#news label {
+    padding: 8px 0;
+    width: 100%;
+}
+
+#news input[type=email] {
+    padding: 8px;
+    border: none;
+    width: calc(100% - 110px);
+    margin-right: 10px;
+}
+
+#news input[type=submit] {
+    width: 100px;
+    padding: 8px;
+    border: none;
+}
+
+#reso img {
+    padding: 5px;
+    width: 40px;
+}
+
+#reso img:hover {
+    filter: invert(100%);
+}
