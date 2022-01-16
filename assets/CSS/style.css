@@ -18,9 +18,6 @@ a {
     color: var(--text1);
 }
 
-a:hover {
-    color: var(--jaune);
-}
 
 .img-fond {
     width: 100%;
@@ -64,6 +61,11 @@ header li {
     margin: 0 10px;
 }
 
+header a:hover {
+    color: var(--jaune);
+}
+
+
 
 
 
@@ -74,16 +76,13 @@ header li {
     height: calc(100vh - 60px);
     display: flex;
     justify-content: end;
-    align-items: flex-end;
-}
 
-#chaumont {
-    width: 100%;
     position: relative;
 }
 
 #image h1 {
     position: absolute;
+    bottom: 30px;
     margin: 0 10% 70px 0;
     font-size: 3rem;
     color: var(--jaune);
@@ -135,6 +134,7 @@ header li {
 .carousel {
     display: flex;
     justify-content: center;
+    height: 80vh;
 }
 .slider {
     width: 40%;
