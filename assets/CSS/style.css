@@ -65,12 +65,9 @@ header a:hover {
     color: var(--jaune);
 }
 
-#right_menu a {
+#right_menu a:hover {
+    opacity: 70%;
 }
-
-
-
-
 
 /* section 1 **********************************************************************/
 
