@@ -11,13 +11,13 @@
 </head>
 
 <body>
-    <header>
-        <img id="logo" src="assets/images/loir-et-cher.png">
+    <header id="header">
+        <img id="logo" src="assets/images/loir-et-cher.png" alt="blason loir-et-cher">
 
         <nav>
             <ul>
                 <li>
-                    <a href="#">Accueil</a>
+                    <a href="">Accueil</a>
                 </li>
 
                 <li>
@@ -34,19 +34,19 @@
             <ul>
                 <li>
                     <a href="#">
-                        <img src="assets/images/email.png" alt="">
+                        <img src="assets/images/email.png" alt="email">
                     </a>
                 </li>
 
                 <li>
                     <a href="#">
-                        <img src="assets/images/map.png" alt="">
+                        <img src="assets/images/map.png" alt="acceder à la carte">
                     </a>
                 </li>
 
                 <li>
                     <a href="#">
-                        <img src="assets/images/loupe.png" alt="">
+                        <img src="assets/images/loupe.png" alt="faire une recherche">
                     </a>
                 </li>
             </ul>
@@ -57,7 +57,7 @@
     <!-- SLIDER ------------------------------------------------------------------ -->
 
     <section id="image">
-        <img class="img-fond" src="assets/images/château-de-chaumont-sur-loire.jpg" alt="">
+        <img class="img-fond" src="assets/images/château-de-chaumont-sur-loire.jpg" alt="chateau de chaumont">
         <h1 class="text">Les chateaux de la Loire</h1>
     </section>
 
@@ -65,7 +65,7 @@
 
     <section class="bandeau">
         <h1>
-            Venez découverir les plus beaux sites architecturaux de la Renaissance...
+            <p id="message"></p>
         </h1>
 
     </section>
@@ -73,7 +73,7 @@
     <!-- texte de presentation des chateaux -->
     <section class="presentation">
 
-        <img class="img-fond" src="assets/images/parc-chateau-de-beauregard.jpg" alt="">
+        <img class="img-fond" src="assets/images/parc-chateau-de-beauregard.jpg" alt="chateau de beauregard">
         <article>
             <p class="text">Bienvenue sur le territoire regroupant les plus célébres chateaux de Loire. Ces édifitces imposants son les temoins de l'architecture de la Renaissance. Venez a la découverte du <a class="text-link" href="#">Chateau de Chambord</a>, le plus célébres et le plus imposants des chateaux de la Loire, au sein de son parc clos, le plus grand d'europe. Visiter le <a class="text-link" href="#">Chateau Royal de Blois</a> , demeure de Louis XII. Admirez le <a class="text-link" href="#">chateau de cheverny</a>, connu mondialement pour avoir inspiré le chateau du capitaine hadok, l'acolyte de Tintin. Et déhambuler dans les jardins ddu Chateau de Chumont, qui accueil chaque année son festival des jardins. </p>
         </article>
@@ -86,7 +86,7 @@
         <div class="slider">
             <a href="#">
                 <div class="slide card">
-                    <img src="assets/images/cheverny2.jpg" alt="Avatar">
+                    <img src="assets/images/cheverny2.jpg" alt="chateau de Cheverny">
                     <div class="container">
                         <h4><b>Le Chateau de Cheverny</b></h4>
                         <p>Architect & Engineer
@@ -99,7 +99,7 @@
             <a href="#">
                 <div class="slide card">
                     <div>
-                        <img src="assets/images/chambord.jpg" alt="Avatar">
+                        <img src="assets/images/chambord.jpg" alt="chateau de Chambord">
                         <div class="container">
                             <h4><b>Le Chateau de Chambord</b></h4>
                             <p>Architect & Engineer</p>
@@ -112,9 +112,9 @@
             <a href="#">
                 <div class="slide card">
                     <div>
-                        <img src="assets/images/blois.jpg" alt="Avatar" >
+                        <img src="assets/images/blois.jpg" alt="chateau de Blois" >
                         <div class="container">
-                            <h4><b>Le Chateau de villesavin</b></h4>
+                            <h4><b>Le Chateau de Blois</b></h4>
                             <p>Architect & Engineer</p>
                         </div>
     
@@ -137,14 +137,14 @@
             <p>Ce site a été élaboré en partenariat avec le Conseil général du loir-et-Cher et le Ministère de la Culture pour la promotion du patrimoine architectural des chateaux de la Loire. </p>
             <form action="#">
                 <label>Abonnez vous à notre newsletter pour ne pas rater notre actualité !</label>
-                <input type="email" name="email" value="" placeholder="Votre adresse email" />
-                <input type="submit" name="submit" value="Envoyer" />
+                <input type="email" name="email" value="" placeholder="Votre adresse email"/>
+                <input  type="submit" name="submit" value="Envoyer" />
             </form>
             <figure id="reso">
-                <a href="#"><img src="images/facebook.png" alt="" /></a>
-                <a href="#"><img src="images/twitter.png" alt="" /></a>
-                <a href="#"><img src="images/youtube.png" alt="" /></a>
-                <a href="#"><img src="images/rss.png" alt="" /></a>
+                <a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+                <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+                <a href="#"><img src="images/youtube.png" alt="youtube" /></a>
+                <a href="#"><img src="images/rss.png" alt="rss" /></a>
             </figure>
         </div>
 
@@ -175,8 +175,10 @@
     </footer>
 
     <!--  lien JS --------------------------------------------------->
-
+    <script src="assets/JS/shrink.js"></script>
+    <script src="assets/JS/typewriter.js"></script>
     <script src="assets/JS/slider.js"></script>
+    <script src="assets/JS/validmail.js"></script>
 </body>
 
 </html>

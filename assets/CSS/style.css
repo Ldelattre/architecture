@@ -44,11 +44,13 @@ header {
     position: fixed;
     width: 100%;
     z-index: 4;
+    transition: 0.2s;
+    font-size: 1.5rem;
 }
 
 #logo {
     height: 60px;
-
+    transition: 0.2s;
 }
 
 header ul {
@@ -154,6 +156,11 @@ header a:hover {
     display: flex;
     justify-content: center;
     position: relative;
+    transition: 0.2s;
+}
+
+.slider a {
+    transition: 0.2s;
 }
 
 .card {
