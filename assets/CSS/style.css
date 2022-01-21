@@ -65,10 +65,9 @@ header a:hover {
     color: var(--jaune);
 }
 
-
-
-
-
+#right_menu a:hover {
+    opacity: 70%;
+}
 
 /* section 1 **********************************************************************/
 
@@ -128,7 +127,16 @@ header a:hover {
 .presentation p {
     width: 90%;
     margin-left: 5%;
+    text-align: justify;
 
+}
+
+.text-link {
+    color: var(--jaune);
+}
+
+.text-link:hover {
+    opacity: 70%;
 }
 
 /* slider avec galeries des chateaux  ********************************************/
@@ -136,15 +144,18 @@ header a:hover {
     display: flex;
     justify-content: center;
     height: 80vh;
+    
 }
+
 .slider {
     width: 40%;
     height: 50vh;
-    margin: 25px ;
+    margin: 25px;
     display: flex;
     justify-content: center;
-    
+    position: relative;
 }
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -164,7 +175,7 @@ header a:hover {
     padding: 2px 16px;
 }
 
-.card img{
+.card img {
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
@@ -173,11 +184,61 @@ header a:hover {
     color: var(--jaune);
 }
 
-/* FOOTER************************************************************** */
-
-footer {
-    background-color: var(--vert3);
+/* Fleches ************************* */
+.prev {
+    position: absolute;
+    top: 50%;
+    left: -75px;
+    width: 50px;
+    border: solid 1px black;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: transparent;
 }
+
+.prev:hover {
+    background-color: var(--jaune);
+    opacity: 30%;
+    cursor: pointer;
+    
+}
+.next {
+    position: absolute;
+    top: 50%;
+    right: -75px;
+    width: 50px;
+    border: solid 1px black;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.next:hover {
+    background-color: var(--jaune);
+    opacity: 30%;
+    cursor: pointer;
+    
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+/* FOOTER************************************************************** */
+/* ***************************************************** */
 
 footer {
     background-color: #292a2a;
@@ -196,7 +257,7 @@ footer {
 .w25 h2 {
     font-size: 1.1rem;
     font-family: 'ubuntu condensed', sans-serif;
-    color: #fff;
+    color: var(--text1);
     padding-top: 0;
 }
 
@@ -207,6 +268,10 @@ footer {
 .w25 a {
     color: inherit;
     text-decoration: none;
+}
+
+.w25 a:hover {
+    color: var(--jaune);
 }
 
 #copyright {
@@ -225,6 +290,10 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+#news p {
+    font-style: italic;
 }
 
 #news label {
