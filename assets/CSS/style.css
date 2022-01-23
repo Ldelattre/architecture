@@ -7,6 +7,7 @@
 /* CORPS*/
 html {
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -34,6 +35,10 @@ a {
 
 }
 
+h1, h2 {
+    font-family: 'Karla', sans-serif;
+}
+
 
 /* Menu header */
 
@@ -50,6 +55,7 @@ header {
     z-index: 4;
     transition: 0.2s;
     font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 #logo {
@@ -150,7 +156,7 @@ header a:hover {
     display: flex;
     justify-content: center;
     height: 80vh;
-    
+
 }
 
 .slider {
@@ -168,20 +174,16 @@ header a:hover {
 }
 
 .card {
-    /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-
-/* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
 
-/* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
 }
@@ -208,11 +210,11 @@ header a:hover {
 }
 
 .prev:hover {
-    background-color: var(--jaune);
+    background-color: var(--text);
     opacity: 30%;
     cursor: pointer;
-    
 }
+
 .next {
     position: absolute;
     top: 50%;
@@ -225,10 +227,10 @@ header a:hover {
 }
 
 .next:hover {
-    background-color: var(--jaune);
+    background-color: var(--text);
     opacity: 30%;
     cursor: pointer;
-    
+
 }
 
 .arrow {
@@ -323,6 +325,7 @@ footer {
     width: 100px;
     padding: 8px;
     border: none;
+    cursor: pointer;
 }
 
 #reso img {
@@ -331,5 +334,5 @@ footer {
 }
 
 #reso img:hover {
-    filter: invert(100%);
+    opacity: 60%;
 }
