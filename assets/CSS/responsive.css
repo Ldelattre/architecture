@@ -39,7 +39,7 @@
         justify-content: flex-start;
     }
 
-    #menu_main>ul li  {
+    #menu_main>ul li {
         padding: 35px 10%;
         border-bottom: 1px dotted #ccc;
     }
@@ -72,6 +72,7 @@
     .presentation {
         width: 100%;
     }
+
     .presentation img {
         display: none;
     }

@@ -35,7 +35,8 @@ a {
 
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Karla', sans-serif;
 }
 
@@ -77,9 +78,10 @@ header a:hover {
     color: var(--jaune);
 }
 
-#menu_main input,#menu_main label{
-    display:none;
-  }
+#menu_main input,
+#menu_main label {
+    display: none;
+}
 
 #right_menu a:hover {
     opacity: 70%;
@@ -129,7 +131,6 @@ header a:hover {
 
 .presentation img {
     height: 100vh;
-
 }
 
 .presentation article {
@@ -144,7 +145,6 @@ header a:hover {
     width: 90%;
     margin-left: 5%;
     text-align: justify;
-
 }
 
 .text-link {
@@ -160,7 +160,6 @@ header a:hover {
     display: flex;
     justify-content: center;
     height: 80vh;
-
 }
 
 .slider {
@@ -273,7 +272,6 @@ footer {
 
 .w25 h2 {
     font-size: 1.1rem;
-    font-family: 'ubuntu condensed', sans-serif;
     color: var(--text1);
     padding-top: 0;
 }
@@ -283,19 +281,12 @@ footer {
 }
 
 .w25 a {
-    color: inherit;
+    color: var(--text1);
     text-decoration: none;
 }
 
 .w25 a:hover {
     color: var(--jaune);
-}
-
-#copyright {
-    width: 100%;
-    text-align: center;
-    padding: 40px 0 20px;
-    font-size: 0.8rem;
 }
 
 #news {
