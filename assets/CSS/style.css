@@ -210,7 +210,7 @@ header a:hover {
 }
 
 .prev:hover {
-    background-color: var(--jaune);
+    background-color: var(--text);
     opacity: 30%;
     cursor: pointer;
 }
@@ -227,7 +227,7 @@ header a:hover {
 }
 
 .next:hover {
-    background-color: var(--jaune);
+    background-color: var(--text);
     opacity: 30%;
     cursor: pointer;
 
