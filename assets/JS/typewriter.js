@@ -1,4 +1,4 @@
-var quoteArray = ["Venez découverir les plus beaux sites architecturaux de la Renaissance..."];
+var quoteArray = ["Venez découvrir les plus beaux sites architecturaux de la Renaissance..."];
 var textPosition = 0;
 var speed = 50;
 
