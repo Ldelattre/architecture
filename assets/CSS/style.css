@@ -77,6 +77,10 @@ header a:hover {
     color: var(--jaune);
 }
 
+#menu_main input,#menu_main label{
+    display:none;
+  }
+
 #right_menu a:hover {
     opacity: 70%;
 }
