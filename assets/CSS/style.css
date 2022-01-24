@@ -312,15 +312,16 @@ footer {
 #news input[type=email] {
     padding: 8px;
     border: none;
-    width: calc(100% - 110px);
-    margin-right: 10px;
+    width: 80%;
+    border-radius: 5px 0 0 5px;
 }
 
 #news input[type=submit] {
-    width: 100px;
+    width: 20%;
     padding: 8px;
     border: none;
     cursor: pointer;
+    border-radius: 0 5px 5px 0;
 }
 
 #reso img {
